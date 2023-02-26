@@ -1,92 +1,146 @@
- /*   section heroimg css  */
- .heroimg{
-	 padding:60px 0 105px;
-	 background-color:#fcdb00;
- }
-.logo{
-	display:inline-block;
-	height:48px;
-} 
- .navbar ul{
-	 display:inline-block;
- }
- .navbar li{
-	 display:inline-block;
-	 margin-right:35px;
- }
- .navbar li:last-child{
-	 margin-right:0;
- }
-.navbar li a{
-	padding:18px;
-	font-size:22px;
-	font-weight:bold;
-	color:#010101;
-	text-transform:capitalize;
-	height:48px;
-	display:inline-block;
-	line-height:48px;
-	text-decoration:none;
-}
-.ipad{
-	margin-left:35px;
-}
-.inspire{
-	margin-top:70px;
-}
-.brandlink li{
-	display:inline-block;
-	margin-right:38px;
-}
-.brandlink li i{
-	font-size:40px;
-	color:#010101;
-}
-/*         feature section css        */
-
-
-.featuresection{
-	padding:120px 0 70px;
-}
-.thumnail{
-	margin-bottom:90px;
-}
-.thumbHeading{
-	color:#010101;
-	font-weight:bold;
-	font-size:22px;
-	margin-bottom:15px;
-	font-family: 'Poppins', sans-serif;
-}
-..thumbpara{
-	font-size:16px;
-	color:#898989;
-}
-.thumbIcon i{
-	font-size:42px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+body {
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
 }
 
-/*footer section css         */
+.Headersection{
+    background-color: #fcdb00;
+}
 
-.footer{
-	padding:90px 0 140px;
-	background-color:#010101;
+ .Headersection .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
 }
-.socialIcons{
-     margin-bottom:130px;
+
+.Headersection .navbar-brand {
+    padding: 0 15px;
 }
-.socialIcons li{
-	display:inline-block;
-	margin-right:30px;	
+.brandlink a{
+    color: #010101;
+    margin-right: 15px;
 }
-.socialIcons li i{
-	font-size:35px;
-	color:#fcdb00;
+
+
+.Headersection  .navbar-nav >li>a {
+    color: #010101;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
 }
-.footerlink li, .footerlink li a {
-	color:#ffffff;
-	font-size:16px;
+.Headersection .header{
+    margin-bottom: 70px;
 }
-.firstcap li a{
-	text-transform:capitalize;
+.featureSection{
+    padding-bottom: 10px;
+}
+.featureSection .thumbnail{
+    padding-top: 15px;
+    margin-bottom: 90px;
+}
+
+.thumbinfo h5{
+  text-transform: capitalize;
+  color: #010101;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  margin: 0 0 15px;
+}
+.thumbinfo p{
+   font-size: 16px;
+   color: #898989;
+}
+.footer-section{
+    background-color: #010101;
+}
+.footer-section .primary-heading{
+    color: #fcdb00;
+}
+.footer-section .secondary-heading{
+    color: #898989;
+    margin-bottom: 45px;
+}
+.btn-pri{
+    background-color: #fcdb00;
+    color: #010101;
+}
+.signupform{
+    margin-bottom: 80px;
+}
+.footer-section .brandlink {
+    margin-bottom: 135px;
+}
+
+
+.footer-section .brandlink a:link, .footer-section .brandlink a:visited{
+    color: #fcdb00;
+}
+.footerlink li, .footerlink a:link, .footerlink a:visited{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+@media all and (max-width:600px){
+        .section{
+            padding: 30px 0;
+        }
+        .Headersection .header {
+            margin-bottom: 0;
+        }
+        .inspire {
+            margin-top: 30px;
+        }
+        .ipad{
+            margin-top: 24px;
+        }
+        .featureSection .mb-90{
+          margin-bottom: 0px;
+        }
+        .featureSection .thumbnail {
+            padding-top: 33px;
+            margin-bottom: 20px;
+        }
+        .btn-pri {
+            margin: 0;
+        }
+        .signupform {
+            margin-bottom: 39px;
+        }
+        .footer-section .brandlink {
+            margin-bottom: 30px;
+        }
+        element.style {
+            margin-bottom: 24px;
+        }
+        .navbar-default .navbar-toggle .icon-bar{
+            background-color: #000;
+        }
+        .navbar-default .navbar-toggle {
+            border-color: #000;
+        }
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            background-color: #000;
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #fff;
+        }
+}
+@media all and (max-width:900px){
+    .section {
+        padding: 36px 0;
+    }
+    .featureSection .thumbnail {
+        padding-top: 20px;
+        margin-bottom: 21px;
+    }
+    .btn-pri {
+        margin: 0;
+    }
+    .footer-section .brandlink {
+        margin-bottom: 107px;
+    }
+    .mb-90 {
+        margin-bottom: 35px;
+    }
 }

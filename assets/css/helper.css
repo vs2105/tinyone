@@ -1,0 +1,50 @@
+.section{
+    padding : 80px 0;
+}
+ul{
+    list-style: none;
+}
+
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+
+.primary-heading {
+    font-size: 32px;
+    color: #010101;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 25px 0;
+}
+.secondary-heading {
+    font-size: 20px;
+    color: #313841;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 20px 0;
+}
+.mb-90{
+    margin-bottom: 90px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.w-100{
+    width: 100%;
+}
+.para{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+}
+.inspire{
+    margin-top: 70px;
+}
+.ipad{
+    max-width: 100%;
+}
+
+.text-center, .text-center-xs{
+    text-align: center;
+}
+
